@@ -1,7 +1,7 @@
 # forEach
 
 * Constantemente vamos selecionar uma lista de itens no DOM
-  A melhor forma de interafirmos com os memos é ultilizando o método forEach
+  A melhor forma de interagirmos com os memos é ultilizando o método forEach
 
   ````js
 

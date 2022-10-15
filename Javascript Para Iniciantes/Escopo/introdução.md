@@ -67,7 +67,7 @@ console.log(fruit); // Apple
 
 # For Loop 
 
-* Ao ultilizar o VAR  dentro de um FOR LOOP , que é um bloco, o valor da variável irá vazar e existir ora do loop
+* Ao ultilizar o VAR  dentro de um FOR LOOP , que é um bloco, o valor da variável irá vazar e existir fora do loop
 
 ````js
 

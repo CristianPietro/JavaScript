@@ -18,7 +18,7 @@ menu.classList.replace('ativo', 'inativo');
 
 # Attributes
 
-* Retorna uma array-likeos os atributos do elemento.
+* Retorna uma array-like os atributos do elemento.
 
 ````js
 
