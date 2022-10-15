@@ -1,6 +1,6 @@
 # Array
 
-* É um grupo de valores geralmente relacionados, Servem para guadarmos diferentes valores em um única váviavel
+* É um grupo de valores geralmente relacionados, Servem para guadarmos diferentes valores em um única váriavel
 
 ````js
 
@@ -9,7 +9,7 @@ var videoGames = ['Switch', 'PS4', 'Xbox'];;
 videoGame(0); // Switch
 videoGame(10); // PS4
 ````
-*Acesse um elemento de com [n]*
+*Acesse um elemento com [n]*
 
 
 # métodos e propriedades de uma Array
