@@ -1,0 +1,71 @@
+/*
+direção dos itens
+*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+flex-wrap
+*/
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px dashed red;
+}
+
+.box div{
+  border: 1px solid;
+  width: 80px
+}
+
+/*
+flex-flow
+*/
+
+.box-2{
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px dashed red;
+}
+
+.box-2 div{
+  border: 1px solid;
+  width: 80px
+}
+
+/*
+justify-content
+*/
+
+.box-3{
+  display: flex;
+  border: 1px dashed red;
+  justify-content: space-between;
+}
+
+.box-3 div{
+  border: 1px solid;
+}
+
+
+/*
+aling-items e gap
+*/
+
+.box-4{
+  display: flex;
+  border: 1px dashed rgb(68, 0, 255);
+  height: 100px;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.box-4 div{
+  
+  border: 1px solid;
+}
