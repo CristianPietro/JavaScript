@@ -1,0 +1,64 @@
+/**
+first child
+*/
+
+ul li:first-child{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+article p:nth-of-type(2){
+  font-weight: bold;
+  font: 18px;
+}
+
+aside p:nth-child(3){
+  text-transform: uppercase;
+  font-weight: bold;
+  font: 18px;
+}
+
+.list li{
+  position: relative;
+}
+
+.list li:nth-child(even){
+  color: blueviolet;
+}
+
+.list li:nth-child(odd){
+  color: brown;
+}
+
+.list li::after{
+  content: "->";
+}
+
+.list li::before{
+  content: "<-"
+ 
+}
+
+h2:hover{
+  color: aqua;
+}
+
+
+button{
+  padding: 10px;
+  background-color: blueviolet;
+}
+
+button:focus{
+  background: pink;
+}
+
+button:disabled{
+  color: red;
+  background-color: black;
+}
+
+p::first-line{
+  color: pink;
+  text-transform: uppercase;
+}
