@@ -1,0 +1,44 @@
+
+/**
+Elemento selector
+*/
+
+h1{
+  color: blueviolet;
+  font-size: 60px;
+}
+
+
+
+/**
+ID selector
+*/
+
+#title-2{
+  color: blueviolet;
+}
+
+/**
+class selector
+*/
+
+.phrase-2{
+  color: blue;
+}
+
+/**
+attribute selectors
+*/
+
+[title]{
+  border: 1px solid #000;
+}
+
+/**
+pseudo elemento
+*/
+
+p:hover{
+  color: brown;
+  text-transform: uppercase;
+}

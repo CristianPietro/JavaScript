@@ -1,0 +1,42 @@
+
+/**
+combinators
+*/
+
+body article h2{
+  text-transform: uppercase;
+}
+
+/**
+child combinator
+*/
+
+nav > ul > li{
+  display: inline;
+  background-color: aqua;
+}
+
+/**
+Sibling combinator
+*/
+
+button + button{
+  margin-left: 20px ;
+}
+
+/**
+Genneral Sibling combinator
+*/
+
+h1~p{
+  color:purple;
+}
+
+/*
+Ultilizando combinadores
+*/
+
+ul > li[class="red"]{
+  color: red;
+ text-transform: uppercase;
+}
