@@ -10,6 +10,13 @@ img{
   max-width: 100%; 
 }
 
+/*
+.pink{
+  background: pink;
+  color: purple;
+}
+*/
+
 ul{
   list-style: none;
 }

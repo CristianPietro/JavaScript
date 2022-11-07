@@ -69,3 +69,23 @@ function executarCallBack(event){
 animaisLista.addEventListenner('click', executarCallback)
 
 ````
+
+## event.preventDefault()
+
+Previne o comportamento padrão do evento no browser.
+No caso de um link externo, por exemplo, ire previnir que o link seja ativado
+
+
+## This
+
+A palavra this é uma palavra especial de js,
+que pode fazer refeerência a diferentes objetos dependendo do
+contexto. No caso do eventos, ele fara referencia ao elemento em que o addEventListener foi adcionado
+
+## Keyboard
+
+voce pode criar atalhos para facilitar a  navegação do seu site,
+atravé de eventos [keyboard]
+
+
+

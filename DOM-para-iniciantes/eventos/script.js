@@ -1,33 +1,153 @@
-const img = document.querySelector('img');
 
-function callback(){
-  console.log('Clicou')
-}
+/**
+ * ADD EVENT LISTENER
+ */
 
-// elemento.addEventListenner(event, callback, option)
-img.addEventListener('click', callback)
-
-//
 
 /*
-function callback(event){
-  console.log(event)
-}
 
+const img = document.querySelector("img");
 
-img.addEventListener('click', callback);
+console.log(img)
+
+img.addEventListener("click", () => {
+  console.log("clicou")
+})
+
 */
 
-//
 
-const animaisLista = document.querySelector('.animais-lista');
 
-function executarCallBack(event){
-  const currentTarget = event.currentTarget; // this
-  const target = event.target; // onde o clique ocorreu
-  const type = event.type; // tipo de evento
-  const path = event.path;
-  console.log(currentTarget, target, type, path)
+
+
+
+
+/**
+ *  CALLBACK SEMPARADO
+ */
+
+
+/*
+
+const img = document.querySelector("img")
+function callback(){
+  console.log("clicou yeah")
+}
+img.addEventListener("click", callback)
+
+*/
+
+
+
+
+
+
+
+
+/**
+ *  EVENT
+ */
+
+ /*
+ const img = document.querySelector("img")
+
+ function callback(event){
+   console.log(event)
+ }
+ img.addEventListener("click", callback)
+*/
+
+
+
+
+
+/**
+ *  PROPRIEDADES DO EVENTO
+ */
+
+/*
+const animaisLista =  document.querySelector(".animais-lista")
+function executarCallback(event){
+  const currentTarget = event.type
+  console.log(currentTarget)
+}
+animaisLista.addEventListener("click", executarCallback)
+*/
+
+
+
+
+
+
+
+/**
+ * evennt.preventDefault()
+ */
+
+/*
+const linkExterno = document.querySelector('a[href^="http"]')
+
+function clickNoLink(event){
+  event.preventDefault();
+  console.log(event.currentTarget.href)
 }
 
-animaisLista.addEventListener('click', executarCallBack)
+linkExterno.addEventListener("click", clickNoLink)
+*/
+
+
+
+
+
+/**
+ * THIS
+ */
+
+/*
+const link = document.querySelector('a[href^="http"]')
+function callback(event){
+  event.preventDefault()
+  console.log(this.getAttribute("href"))
+}
+
+link.addEventListener("click", callback)
+*/
+
+
+/**
+ * DIFERENTES EVENTOS
+ */
+
+/*
+ const h1 = document.querySelector("h1")
+
+ function callback(event){
+   console.log(event.type, event)
+ }
+ h1.addEventListener("mousemove", callback)
+
+ const img = document.querySelector("img")
+function retorno(event){
+  console.log(this.getAttribute('src'))
+}
+
+img.addEventListener("click", retorno)
+*/
+
+
+
+
+/**
+ * KEYBOARD
+ */
+
+function eventoTecla(event){
+  if (event.key === 'a') {
+    document.body.classList.toggle('OnePiece')
+  }else if (event.key === 'b'){
+    document.body.classList.toggle('Naruto')
+  }
+}
+
+window.addEventListener("keydown", eventoTecla)
+
