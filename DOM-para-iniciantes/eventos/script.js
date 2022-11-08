@@ -141,6 +141,8 @@ img.addEventListener("click", retorno)
  * KEYBOARD
  */
 
+
+/*
 function eventoTecla(event){
   if (event.key === 'a') {
     document.body.classList.toggle('OnePiece')
@@ -150,4 +152,24 @@ function eventoTecla(event){
 }
 
 window.addEventListener("keydown", eventoTecla)
+*/
+
+
+
+
+/**
+ * ForEach e EVENTOS
+ */
+
+
+const imgs = document.querySelectorAll("img")
+
+function imgsrc(event){
+  const src = event.currentTarget.getAttribute("src")
+  console.log(src)
+}
+
+imgs.forEach((img) =>{
+  img.addEventListener("click", imgsrc)
+})
 

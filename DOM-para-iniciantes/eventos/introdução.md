@@ -87,5 +87,8 @@ contexto. No caso do eventos, ele fara referencia ao elemento em que o addEventL
 voce pode criar atalhos para facilitar a  navegação do seu site,
 atravé de eventos [keyboard]
 
+## ForEach e eventos
 
+O método [addEventListener] é adcionado a um únic elemento
+entã é necessário um loop entre elementos de uma lista, para adcionarmos a cada um deles
 
