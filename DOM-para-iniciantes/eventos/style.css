@@ -10,12 +10,16 @@ img{
   max-width: 100%; 
 }
 
-/*
+
 .pink{
   background: pink;
   color: purple;
 }
-*/
+
+
+.high{
+  text-transform: uppercase;
+}
 
 ul{
   list-style: none;

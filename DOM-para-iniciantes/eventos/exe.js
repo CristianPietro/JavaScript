@@ -20,3 +20,57 @@ linksInterno.forEach((link) =>{
   link.addEventListener("click", handleLink)
 }) // loop para adcionar eventos em todos os links
 
+
+
+
+// Selecione todos os elementos do site começando a partir do body
+//ao click mostre exastamente o elemento que esta sendo clicado
+
+/*
+const allElements = document.querySelectorAll(" body *")
+
+function showElement(event){
+  const  showEvent = event.currentTarget;
+  console.log(showEvent)
+}
+
+allElements.forEach((link) =>{
+  link.addEventListener("click", showElement)
+})
+
+console.log(allElements)
+*/
+
+
+
+
+//Utilizando o código anterior, ao inves de mostrar no console
+//remova o elemento que esta sendo clicado, metodo remove()
+
+const allElements = document.querySelectorAll(" body *")
+
+function showElement(event){
+  const  showEvent = event.currentTarget;
+  console.log(showEvent.remove())
+}
+
+allElements.forEach((link) =>{
+  link.addEventListener("click", showElement)
+})
+
+console.log(allElements)
+
+
+
+
+//  se o usuario clicar na tecla "t", aumente todo o texto do site
+
+
+
+function highText(event){
+  if(event.key === 't'){
+    document.body.classList.toggle("high")
+  }
+}
+
+window.addEventListener("keydown", highText)
